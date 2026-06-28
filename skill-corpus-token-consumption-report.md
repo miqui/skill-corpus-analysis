@@ -4,7 +4,7 @@ Generated: 2026-06-28 12:20:30 EDT
 
 ## Executive Summary
 
-- Corpus scanned: `/Users/miqui/.hermes/skills`
+- Corpus scanned: `[redacted local path]`
 - Skills found: **204**
 - Text files scanned: **1,024**; non-text/binary files noted: **89**
 - Estimated total text tokens across all scanned files: **2,588,468**
@@ -395,7 +395,7 @@ Review high `related_skills` fanout and possible broken references. Keep relatio
 
 ## Methodology
 
-- Read-only scan of `~/.hermes/skills`.
+- Read-only scan of `[redacted local path]`.
 - Text files included common source/document formats and all `SKILL.md` files.
 - Token estimates use `ceil(characters / 4)`. This favors stable corpus comparisons over tokenizer-specific exactness.
 - Category is inferred from the path segments before the skill directory.
